@@ -1,0 +1,16 @@
+spring:
+  prfiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: springcloudone-config-lxt-dev
+---
+spring: 
+  profiles: test #测试环境
+  application: 
+    name: springcloudone-config-lxt-test
+#编码格式UTF-8
+    
